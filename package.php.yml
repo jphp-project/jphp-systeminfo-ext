@@ -1,0 +1,15 @@
+name: jphp-systeminfo-ext
+version: 1.0
+description: Функции для получения системной информации о компьютере, включая данные о процессоре, памяти, устройствах и сетевых интерфейсах.
+
+deps:
+  jphp-runtime: '*'
+
+ide-bundle: # for DN 17+
+  name: jphp-systeminfo-ext
+  author: Meigo™ Corporation
+  class: develnext\bundle\systeminfo\SystemInfoBundle
+  icon: develnext/bundle/systeminfo/icon32.png
+  description: Функции для получения системной информации о компьютере, включая данные о процессоре, памяти, устройствах и сетевых интерфейсах.
+  platforms: [desktop]
+  group: system
